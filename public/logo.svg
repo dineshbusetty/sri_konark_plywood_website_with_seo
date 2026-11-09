@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" fill="none">
+  <!-- Shield border -->
+  <rect x="4" y="4" width="40" height="40" rx="6" ry="6" stroke="url(#goldGrad)" stroke-width="1.2" fill="none" opacity="0.4"/>
+  <rect x="6" y="6" width="36" height="36" rx="4" ry="4" stroke="#C9A84C" stroke-width="0.5" fill="none" opacity="0.15"/>
+
+  <!-- Roof -->
+  <path d="M10 22L24 10L38 22" stroke="#C9A84C" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+
+  <!-- House walls -->
+  <line x1="12" y1="22" x2="12" y2="38" stroke="#FAF6F0" stroke-width="1.8" stroke-linecap="round"/>
+  <line x1="36" y1="22" x2="36" y2="38" stroke="#FAF6F0" stroke-width="1.8" stroke-linecap="round"/>
+  <line x1="12" y1="38" x2="36" y2="38" stroke="#FAF6F0" stroke-width="1.8" stroke-linecap="round"/>
+
+  <!-- Plywood layers inside house -->
+  <line x1="14" y1="26" x2="34" y2="26" stroke="#C9A84C" stroke-width="1.2" stroke-linecap="round" opacity="0.7"/>
+  <line x1="14" y1="30" x2="34" y2="30" stroke="#C9A84C" stroke-width="1.2" stroke-linecap="round" opacity="0.55"/>
+  <line x1="14" y1="34" x2="34" y2="34" stroke="#C9A84C" stroke-width="1.2" stroke-linecap="round" opacity="0.4"/>
+
+  <!-- Wood grain curves -->
+  <path d="M16 27.5c4-0.8 8 0.8 12 0" stroke="#FAF6F0" stroke-width="0.4" opacity="0.15" fill="none"/>
+  <path d="M18 31.5c3-0.6 6 0.6 10 0" stroke="#FAF6F0" stroke-width="0.4" opacity="0.12" fill="none"/>
+
+  <!-- Hex bolt at roof peak -->
+  <polygon points="24,7 26.6,8.5 26.6,11.5 24,13 21.4,11.5 21.4,8.5" fill="#C9A84C" opacity="0.85"/>
+  <polygon points="24,8 25.8,9 25.8,11 24,12 22.2,11 22.2,9" fill="none" stroke="#FAF6F0" stroke-width="0.5" opacity="0.4"/>
+
+  <!-- Door -->
+  <rect x="21" y="32" width="6" height="6" rx="0.5" stroke="#FAF6F0" stroke-width="0.8" fill="none" opacity="0.3"/>
+
+  <defs>
+    <linearGradient id="goldGrad" x1="0" y1="0" x2="48" y2="48">
+      <stop offset="0%" stop-color="#A68B3C"/>
+      <stop offset="50%" stop-color="#C9A84C"/>
+      <stop offset="100%" stop-color="#D4B96A"/>
+    </linearGradient>
+  </defs>
+</svg>

@@ -1,0 +1,221 @@
+@import "tailwindcss";
+
+@theme {
+  --color-walnut: #3E2723;
+  --color-walnut-light: #5D4037;
+  --color-gold: #C9A84C;
+  --color-gold-light: #D4B96A;
+  --color-gold-dark: #A68B3C;
+  --color-cream: #FAF6F0;
+  --color-cream-dark: #F0EAE0;
+  --color-charcoal: #1A1A1A;
+  --color-charcoal-light: #2C2C2C;
+  --color-warm-gray: #8B7E74;
+  --color-warm-gray-light: #B5A99A;
+
+  --font-heading: 'Playfair Display', serif;
+  --font-body: 'Inter', sans-serif;
+}
+
+html {
+  scroll-behavior: auto;
+}
+
+body {
+  font-family: var(--font-body);
+  color: var(--color-charcoal-light);
+  background-color: var(--color-cream);
+  overflow-x: hidden;
+  margin: 0;
+}
+
+::selection {
+  background-color: var(--color-gold);
+  color: var(--color-walnut);
+}
+
+.grain-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: 9999;
+  opacity: 0.03;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)'/%3E%3C/svg%3E");
+}
+
+.font-heading {
+  font-family: var(--font-heading);
+}
+
+.text-gradient-gold {
+  background: linear-gradient(135deg, var(--color-gold-dark), var(--color-gold), var(--color-gold-light));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0px); }
+  50% { transform: translateY(-10px); }
+}
+
+.animate-float {
+  animation: float 3s ease-in-out infinite;
+}
+
+@keyframes scroll-hint {
+  0%, 100% { transform: translateY(0); opacity: 1; }
+  50% { transform: translateY(12px); opacity: 0.5; }
+}
+
+.animate-scroll-hint {
+  animation: scroll-hint 2s ease-in-out infinite;
+}
+
+@keyframes fade-in-up {
+  from { opacity: 0; transform: translateY(30px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.animate-fade-in-up {
+  animation: fade-in-up 0.8s ease-out forwards;
+}
+
+.glass-door-panel {
+  backdrop-filter: blur(1px);
+  -webkit-backdrop-filter: blur(1px);
+  will-change: transform;
+}
+
+.door-frame-trim {
+  border: 1px solid rgba(201, 168, 76, 0.2);
+  pointer-events: none;
+}
+
+@keyframes float-mote {
+  0% { transform: translate(0, 0); opacity: 0; }
+  20% { opacity: 0.3; }
+  80% { opacity: 0.15; }
+  100% { transform: translate(30px, -100px); opacity: 0; }
+}
+
+.animate-mote {
+  animation: float-mote 8s ease-in-out infinite;
+}
+
+.animate-mote-delayed {
+  animation: float-mote 10s ease-in-out 3s infinite;
+}
+
+.animate-mote-slow {
+  animation: float-mote 12s ease-in-out 6s infinite;
+}
+
+@keyframes badge-shimmer {
+  0% { background-position: -200% center; }
+  100% { background-position: 200% center; }
+}
+
+.premium-badge {
+  background: linear-gradient(
+    90deg,
+    rgba(201, 168, 76, 0) 0%,
+    rgba(201, 168, 76, 0.1) 50%,
+    rgba(201, 168, 76, 0) 100%
+  );
+  background-size: 200% 100%;
+  animation: badge-shimmer 4s ease-in-out infinite;
+}
+
+.nav-transparent {
+  background: linear-gradient(to bottom, rgba(20, 20, 20, 0.6), transparent);
+}
+
+.nav-scrolled {
+  background: rgba(26, 22, 18, 0.92);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  box-shadow: 0 4px 16px -2px rgba(0, 0, 0, 0.5), inset 0 -1px 0 0 rgba(201, 168, 76, 0.06);
+  border-bottom: 1px solid rgba(226, 176, 74, 0.12);
+}
+
+/* Active nav link */
+.nav-link-active {
+  color: #e2b04a !important;
+}
+.nav-link-active .absolute {
+  background-color: rgba(226, 176, 74, 0.06);
+}
+.nav-link-active .nav-active-dot {
+  opacity: 1 !important;
+}
+
+/* Nav link hover pill glow */
+.nav-link:hover .absolute {
+  background-color: rgba(226, 176, 74, 0.08);
+}
+
+/* CTA shimmer sweep */
+.cta-shimmer::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    90deg,
+    transparent 0%,
+    rgba(255, 255, 255, 0.15) 50%,
+    transparent 100%
+  );
+  transition: left 0.5s ease;
+}
+.cta-shimmer:hover::before {
+  left: 100%;
+}
+
+/* Radar ping animation for map */
+@keyframes radar-ping {
+  0% { transform: scale(1); opacity: 0.6; }
+  100% { transform: scale(2.5); opacity: 0; }
+}
+.radar-ping {
+  animation: radar-ping 2.5s ease-out infinite;
+}
+.radar-ping-delayed {
+  animation: radar-ping 2.5s ease-out 0.8s infinite;
+}
+.radar-ping-slow {
+  animation: radar-ping 2.5s ease-out 1.6s infinite;
+}
+
+/* Gallery masonry layout */
+.gallery-masonry {
+  columns: 2;
+  column-gap: 1rem;
+}
+
+@media (min-width: 768px) {
+  .gallery-masonry {
+    columns: 3;
+  }
+}
+
+@media (min-width: 1024px) {
+  .gallery-masonry {
+    columns: 4;
+  }
+}
+
+.ambient-glow {
+  background: radial-gradient(
+    ellipse 50% 40% at 50% 40%,
+    rgba(201, 168, 76, 0.08) 0%,
+    transparent 70%
+  );
+  pointer-events: none;
+}
