@@ -1,9 +1,11 @@
+const base = import.meta.env.BASE_URL
+
 export const galleryItems = [
   {
     id: 'living-room',
     title: 'Living Room Interior',
     category: 'room',
-    image: '/rooms/living-room.jpg',
+    image: `${base}rooms/living-room.jpg`,
     description:
       'A warm, contemporary living space featuring premium marine plywood furniture with natural wood veneers and soft-close hardware throughout.',
     tags: ['living room', 'interior', 'marine plywood', 'veneer', 'TV unit design', 'Anantapur', 'wood veneer'],
@@ -20,7 +22,7 @@ export const galleryItems = [
     id: 'kitchen',
     title: 'Modular Kitchen',
     category: 'room',
-    image: '/rooms/kitchen.jpg',
+    image: `${base}rooms/kitchen.jpg`,
     description:
       'Fully modular kitchen with waterproof marine plywood cabinets, high-pressure laminates, and premium Hettich hardware for smooth operation.',
     tags: ['kitchen', 'modular', 'HPL', 'waterproof', 'modular kitchen design', 'Anantapur', 'kitchen cabinets'],
@@ -37,7 +39,7 @@ export const galleryItems = [
     id: 'bedroom',
     title: 'Bedroom Wardrobe',
     category: 'room',
-    image: '/rooms/bedroom.jpg',
+    image: `${base}rooms/bedroom.jpg`,
     description:
       'Spacious bedroom with custom-built wardrobes using BWR plywood, decorative laminates, and integrated LED lighting channels.',
     tags: ['bedroom', 'wardrobe', 'MR plywood', 'laminate', 'wardrobe design', 'Anantapur', 'sliding wardrobe'],
@@ -54,7 +56,7 @@ export const galleryItems = [
     id: 'bathroom',
     title: 'Bathroom Vanity',
     category: 'room',
-    image: '/rooms/bathroom.jpg',
+    image: `${base}rooms/bathroom.jpg`,
     description:
       'Moisture-resistant bathroom vanity crafted with marine plywood and waterproof laminates, designed for long-lasting performance.',
     tags: ['bathroom', 'vanity', 'waterproof', 'marine plywood', 'bathroom cabinet', 'Anantapur', 'water resistant'],
@@ -71,7 +73,7 @@ export const galleryItems = [
     id: 'dining-room',
     title: 'Dining Room',
     category: 'room',
-    image: '/rooms/dining-room.jpg',
+    image: `${base}rooms/dining-room.jpg`,
     description:
       'Elegant dining space with a handcrafted plywood dining set finished with natural veneer and protected with a durable melamine coat.',
     tags: ['dining room', 'veneer', 'furniture', 'dining table Anantapur', 'Anantapur', 'wood furniture'],
@@ -88,7 +90,7 @@ export const galleryItems = [
     id: 'study',
     title: 'Study Room',
     category: 'room',
-    image: '/rooms/study.jpg',
+    image: `${base}rooms/study.jpg`,
     description:
       'A focused study room with built-in bookshelves and a custom desk, using commercial plywood with walnut-finish laminates.',
     tags: ['study', 'bookshelf', 'desk', 'commercial plywood', 'home office', 'Anantapur', 'study table'],
@@ -105,7 +107,7 @@ export const galleryItems = [
     id: 'pooja-room',
     title: 'Pooja Room',
     category: 'room',
-    image: '/rooms/pooja-room.jpg',
+    image: `${base}rooms/pooja-room.jpg`,
     description:
       'A serene pooja room with intricate CNC-cut jaali patterns on premium plywood, gold-finished laminates, and ambient lighting.',
     tags: ['pooja room', 'CNC', 'jaali', 'pooja mandir design', 'Anantapur', 'CNC cutting'],
@@ -125,7 +127,7 @@ export const galleryItems = [
     id: 'jivanjor-lamino',
     title: 'Jivanjor Lamino',
     category: 'product',
-    image: '/products/jivanjor-lamino.webp',
+    image: `${base}products/jivanjor-lamino.webp`,
     description:
       'Jivanjor Lamino by Pidilite is a high-performance synthetic resin adhesive engineered for laminate bonding on plywood, MDF, and particle board surfaces. With an exceptional bond strength of 280 kg/sq.inch, it delivers water-resistant, heat-proof joints that outlast conventional adhesives. Trusted by carpenters and interior professionals across Anantapur for modular kitchens, wardrobes, and commercial furniture.',
     tags: ['Jivanjor', 'laminate adhesive', 'Pidilite', 'water resistant', 'plywood bonding', 'Anantapur'],
@@ -143,7 +145,7 @@ export const galleryItems = [
     id: 'jivanjor-pvc-xtra',
     title: 'Jivanjor PVC Xtra',
     category: 'product',
-    image: '/products/jivanjor-pvc-xtra.webp',
+    image: `${base}products/jivanjor-pvc-xtra.webp`,
     description:
       'Jivanjor PVC Xtra is a heavy-duty solvent-based adhesive purpose-built for PVC pipes, fittings, and polymer surfaces. Its chemical-resistant formula ensures leak-proof plumbing joints that withstand pressure, temperature fluctuations, and long-term moisture exposure. An essential product for plumbing contractors and hardware professionals in Andhra Pradesh.',
     tags: ['Jivanjor', 'PVC adhesive', 'Pidilite', 'plumbing', 'solvent-based', 'chemical resistant', 'Anantapur'],
@@ -161,7 +163,7 @@ export const galleryItems = [
     id: 'jivanjor-allrounder',
     title: 'Jivanjor Allrounder',
     category: 'product',
-    image: '/products/jivanjor-allrounder.webp',
+    image: `${base}products/jivanjor-allrounder.webp`,
     description:
       'Jivanjor Allrounder is the go-to multi-purpose wood adhesive for professionals who work across materials — plywood, MDF, particle board, veneers, and decorative laminates. With a bonding strength of 280 kg/sq.inch and superior heat and water resistance, it handles everything from furniture assembly to interior fit-outs. Available at Sri Konark Plywood & Hardware, Anantapur.',
     tags: ['Jivanjor', 'wood adhesive', 'multi-purpose', 'MDF', 'veneer', 'furniture assembly', 'Anantapur'],
@@ -179,7 +181,7 @@ export const galleryItems = [
     id: 'jivanjor-fastx',
     title: 'Jivanjor FastX',
     category: 'product',
-    image: '/products/jivanjor-fastx.webp',
+    image: `${base}products/jivanjor-fastx.webp`,
     description:
       'Jivanjor FastX is a rapid-setting adhesive designed for time-critical woodworking and interior projects. It bonds plywood, laminates, MDF, and veneers with high-strength joints in significantly less clamping time than standard adhesives. Ideal for production workshops and on-site installations where speed matters without compromising quality.',
     tags: ['Jivanjor', 'fast-setting', 'quick dry', 'adhesive', 'woodworking', 'production', 'Anantapur'],
@@ -198,7 +200,7 @@ export const galleryItems = [
     id: 'gurjan-plywood',
     title: 'Gurjan Plywood',
     category: 'product',
-    image: '/products/gurjan-plywood.jpg',
+    image: `${base}products/gurjan-plywood.jpg`,
     description:
       'Premium BWP marine-grade gurjan plywood engineered for applications that demand the highest durability — modular kitchens, bathroom vanities, and exterior furniture. Manufactured with gurjan face veneer and boiling-water-proof resin, it resists warping, termites, and moisture for decades. Features built-in termite shield and low-VOC emission for healthier indoor air quality.',
     tags: ['gurjan plywood', 'BWP', 'marine grade', 'waterproof', 'IS 710', 'Anantapur'],
@@ -217,7 +219,7 @@ export const galleryItems = [
     id: 'alternate-plywood',
     title: 'Alternate Plywood',
     category: 'product',
-    image: '/products/alternate-plywood.jpg',
+    image: `${base}products/alternate-plywood.jpg`,
     description:
       'Commercial-grade MR plywood offering reliable moisture resistance at a budget-friendly price point. Built with seasoned hardwood and extra ply layers for strength, it is ideal for interior furniture, shelving, partitions, and general carpentry. Available in 4mm to 18mm thickness with borer and termite protection. A practical choice for cost-conscious projects in Anantapur.',
     tags: ['alternate plywood', 'commercial', 'MR grade', 'budget', 'interior', 'IS 303'],
@@ -236,7 +238,7 @@ export const galleryItems = [
     id: 'greenlam-mfc',
     title: 'Greenlam MFC Board',
     category: 'product',
-    image: '/products/greenlam-mfc.jpg',
+    image: `${base}products/greenlam-mfc.jpg`,
     description:
       'Greenlam MFC (Melamine Faced Chipboard) board is engineered for areas exposed to humidity and water splashes — kitchens, bathrooms, laundry rooms, and commercial spaces. The dense, homogeneous chipboard core resists swelling and deformation, while the factory-applied melamine surface offers a ready-to-use decorative finish in a wide range of colours and textures. A superior alternative to raw particle board for moisture-prone interiors.',
     tags: ['Greenlam', 'MFC board', 'melamine faced', 'chipboard', 'kitchen', 'bathroom', 'Anantapur'],
@@ -254,7 +256,7 @@ export const galleryItems = [
     id: 'greenlam-particle-board',
     title: 'Greenlam Particle Board',
     category: 'product',
-    image: '/products/greenlam-particle-board.jpg',
+    image: `${base}products/greenlam-particle-board.jpg`,
     description:
       'Greenlam Particle Board is an economical engineered wood panel made from compressed wood chips, shavings, and resin. Ideal for interior furniture, shelving, partitions, and office workstations where cost efficiency matters without sacrificing structural integrity. Available in multiple thicknesses and ready for lamination or veneer finishing. A go-to substrate for modular furniture makers and interior professionals in Anantapur.',
     tags: ['Greenlam', 'particle board', 'engineered wood', 'furniture', 'interior', 'budget', 'Anantapur'],
@@ -272,7 +274,7 @@ export const galleryItems = [
     id: 'hardwood-plywood',
     title: 'Hardwood Plywood',
     category: 'product',
-    image: '/products/hardwood-plywood.jpg',
+    image: `${base}products/hardwood-plywood.jpg`,
     description:
       'BWP-grade hardwood plywood designed for structural and heavy-duty furniture applications. Manufactured with calibrated hardwood veneers and boiling-water-proof phenolic resin, it delivers exceptional strength, dimensional stability, and long-term moisture resistance. Built-in termite defense makes it the backbone of premium interior projects across Anantapur.',
     tags: ['hardwood plywood', 'BWP', 'marine', 'structural', 'phenolic resin', 'Anantapur'],
@@ -291,7 +293,7 @@ export const galleryItems = [
     id: 'rubber-wood',
     title: 'Rubber Wood',
     category: 'product',
-    image: '/products/rubber-wood.jpg',
+    image: `${base}products/rubber-wood.jpg`,
     description:
       'Plantation-grown rubber wood is a sustainable, eco-friendly hardwood prized for its uniform grain, excellent workability, and natural light tone. Widely used for solid wood furniture, door frames, table tops, and decorative panelling. It accepts stains and finishes beautifully, making it a favourite among furniture makers and interior designers in Anantapur and across Andhra Pradesh.',
     tags: ['rubber wood', 'solid wood', 'sustainable', 'furniture', 'plantation timber', 'eco-friendly', 'Anantapur'],
@@ -310,7 +312,7 @@ export const galleryItems = [
     id: 'block-board',
     title: 'Block Board',
     category: 'product',
-    image: '/products/block-board.jpg',
+    image: `${base}products/block-board.jpg`,
     description:
       'Block board is a high-strength engineered wood panel made from edge-glued softwood strips sandwiched between hardwood veneers. Its solid core delivers superior screw-holding power, rigidity, and dimensional stability — ideal for long shelves, table tops, partition walls, and flush doors. Lighter than solid wood yet equally strong, block board is a preferred substrate for carpenters and furniture manufacturers across Anantapur.',
     tags: ['block board', 'engineered wood', 'furniture', 'flush doors', 'shelving', 'Anantapur'],
@@ -328,7 +330,7 @@ export const galleryItems = [
     id: 'hardware-fittings',
     title: 'Hardware Fittings',
     category: 'product',
-    image: '/products/hardware-fittings.jpg',
+    image: `${base}products/hardware-fittings.jpg`,
     description:
       'Premium furniture hardware and fittings from industry-leading brands — soft-close hinges, tandem drawer systems, telescopic channels, cabinet handles, door locks, and sliding mechanisms. Engineered for smooth operation, long life, and modern aesthetics, our hardware range covers everything from modular kitchens and wardrobes to office furniture and commercial interiors. Available at Sri Konark Plywood & Hardware, Anantapur.',
     tags: ['hardware', 'fittings', 'hinges', 'drawer systems', 'handles', 'locks', 'Anantapur'],
@@ -346,7 +348,7 @@ export const galleryItems = [
     id: 'laminates',
     title: 'Decorative Laminates',
     category: 'product',
-    image: '/products/laminates.webp',
+    image: `${base}products/laminates.webp`,
     description:
       'High-pressure decorative laminates (HPL) in a vast selection of colours, textures, and finishes — woodgrain, marble, solid, metallic, and geometric patterns. Scratch-resistant, heat-proof, and easy to maintain, these laminates transform plywood and MDF surfaces into stunning furniture and wall panels. Available in 0.8mm and 1mm sheets for residential and commercial interiors across Anantapur and Andhra Pradesh.',
     tags: ['laminates', 'HPL', 'decorative', 'woodgrain', 'marble finish', 'interior design', 'Anantapur'],
@@ -365,7 +367,7 @@ export const galleryItems = [
     id: 'wpc-door-frames',
     title: 'WPC Door Frames',
     category: 'product',
-    image: '/products/wpc-door-frames.webp',
+    image: `${base}products/wpc-door-frames.webp`,
     description:
       'Wood-Polymer Composite (WPC) door frames are an advanced alternative to traditional wooden frames, offering complete resistance to water, termites, and warping. Made from a blend of wood fibre and PVC polymer, they retain the look and feel of natural wood while delivering maintenance-free performance for decades. Ideal for bathrooms, kitchens, and high-humidity areas across residential and commercial projects in Anantapur.',
     tags: ['WPC', 'door frames', 'waterproof', 'termite proof', 'polymer', 'bathroom', 'Anantapur'],
@@ -384,7 +386,7 @@ export const galleryItems = [
     id: 'wooden-door',
     title: 'Wooden Panel Door',
     category: 'product',
-    image: '/products/wooden-door.jpg',
+    image: `${base}products/wooden-door.jpg`,
     description:
       'Premium solid wood panel door with elegant arched detailing, decorative sidelights, and a transom window — crafted for grand entryways and main doors. Built from kiln-dried hardwood with a rich mahogany finish, this door combines timeless aesthetics with superior structural integrity. Weather-sealed and termite-treated for lasting performance. Available at Sri Konark Plywood & Hardware, Anantapur.',
     tags: ['wooden door', 'panel door', 'entry door', 'main door', 'solid wood door', 'mahogany', 'Anantapur'],
@@ -402,7 +404,7 @@ export const galleryItems = [
     id: 'shuttering-plywood',
     title: 'Crown Platinum Shuttering Plywood',
     category: 'product',
-    image: '/products/shuttering-plywood.jpg',
+    image: `${base}products/shuttering-plywood.jpg`,
     description:
       'Crown Platinum Shuttering Plywood is a high-density, Made-in-India shuttering plywood engineered for concrete formwork in construction projects. Available in 30kg, 34kg, and 25kg variants with uniform 12mm thickness, it is well known for its high repetition usage and zero-gap bonding. Ideal for builders, contractors, and construction professionals who demand consistent quality and cost efficiency across multiple pours.',
     tags: ['shuttering plywood', 'construction plywood', 'Crown Platinum', '12mm plywood', 'formwork', 'concrete', 'Anantapur'],

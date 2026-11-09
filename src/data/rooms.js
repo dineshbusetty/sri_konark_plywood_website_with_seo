@@ -1,7 +1,9 @@
+const base = import.meta.env.BASE_URL
+
 export const rooms = [
   {
     id: 'living-room',
-    image: '/rooms/living-room.jpg',
+    image: `${base}rooms/living-room.jpg`,
     name: 'Living Room',
     tagline: 'Where First Impressions Begin',
     description:
@@ -89,7 +91,7 @@ export const rooms = [
   },
   {
     id: 'kitchen',
-    image: '/rooms/kitchen.jpg',
+    image: `${base}rooms/kitchen.jpg`,
     name: 'Kitchen',
     tagline: 'Engineered to Endure Heat, Steam & Spills',
     description:
@@ -180,7 +182,7 @@ export const rooms = [
   },
   {
     id: 'bedroom',
-    image: '/rooms/bedroom.jpg',
+    image: `${base}rooms/bedroom.jpg`,
     name: 'Bedroom',
     tagline: 'Crafted for Comfort & Calm',
     description:
@@ -268,7 +270,7 @@ export const rooms = [
   },
   {
     id: 'bathroom',
-    image: '/rooms/bathroom.jpg',
+    image: `${base}rooms/bathroom.jpg`,
     name: 'Bathroom',
     tagline: 'Waterproof from Core to Surface',
     description:
@@ -355,7 +357,7 @@ export const rooms = [
   },
   {
     id: 'dining-room',
-    image: '/rooms/dining-room.jpg',
+    image: `${base}rooms/dining-room.jpg`,
     name: 'Dining Room',
     tagline: 'Where Families Gather',
     description:
@@ -436,7 +438,7 @@ export const rooms = [
   },
   {
     id: 'study',
-    image: '/rooms/study.jpg',
+    image: `${base}rooms/study.jpg`,
     name: 'Study / Home Office',
     tagline: 'Designed for Focus & Productivity',
     description:
@@ -514,7 +516,7 @@ export const rooms = [
   },
   {
     id: 'pooja-room',
-    image: '/rooms/pooja-room.jpg',
+    image: `${base}rooms/pooja-room.jpg`,
     name: 'Pooja Room',
     tagline: 'A Sacred Space, Crafted with Devotion',
     description:
