@@ -357,7 +357,7 @@ export default function Hero() {
             initial="hidden"
             animate="visible"
             variants={fadeUp}
-            className="font-heading text-3xl sm:text-4xl md:text-5xl lg:text-6xl text-gradient-gold mb-6"
+            className="font-heading text-2xl sm:text-4xl md:text-5xl lg:text-6xl text-gradient-gold mb-6"
           >
             Plywood & Hardware
           </motion.p>

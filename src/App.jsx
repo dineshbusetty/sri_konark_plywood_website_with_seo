@@ -6,6 +6,7 @@ import ScrollProgress from './components/ui/ScrollProgress'
 import ScrollMorphHero from './components/ui/scroll-morph-hero'
 import About from './components/About'
 import Gallery from './components/Gallery'
+import LaminateVisualizer from './components/LaminateVisualizer'
 import Contact from './components/Contact'
 import Footer from './components/Footer'
 import TangleFooter from './components/ui/tangle-footer'
@@ -169,6 +170,7 @@ function App() {
 
         <About />
         <Gallery />
+        <LaminateVisualizer />
         <Contact />
       </main>
       <Footer />

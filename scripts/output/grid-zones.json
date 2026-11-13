@@ -1,0 +1,293 @@
+{
+  "kitchen-1": [
+    {
+      "id": "ceiling-soffit",
+      "label": "Ceiling Soffit",
+      "points": "2,0 96,0 96,13 2,13"
+    },
+    {
+      "id": "upper-cabinets-left-1",
+      "label": "Upper Cabinets Left 1",
+      "points": "2,13 21,13 21,37 2,37"
+    },
+    {
+      "id": "upper-cabinets-left-2",
+      "label": "Upper Cabinets Left 2",
+      "points": "21,13 36,13 36,37 21,37"
+    },
+    {
+      "id": "chimney-hood-1",
+      "label": "Chimney Hood 1",
+      "points": "36,13 50,13 50,37 36,37"
+    },
+    {
+      "id": "chimney-hood-2",
+      "label": "Chimney Hood 2",
+      "points": "50,13 64,13 64,37 50,37"
+    },
+    {
+      "id": "upper-cabinets-right-1",
+      "label": "Upper Cabinets Right 1",
+      "points": "64,13 79,13 79,37 64,37"
+    },
+    {
+      "id": "upper-cabinets-right-2",
+      "label": "Upper Cabinets Right 2",
+      "points": "79,13 96,13 96,37 79,37"
+    },
+    {
+      "id": "backsplash",
+      "label": "Backsplash",
+      "points": "2,37 96,37 96,59 2,59"
+    },
+    {
+      "id": "lower-cabinets-left-1",
+      "label": "Lower Cabinets Left 1",
+      "points": "2,59 18,59 18,66 2,66"
+    },
+    {
+      "id": "lower-cabinets-left-2",
+      "label": "Lower Cabinets Left 2",
+      "points": "18,59 31,59 31,66 18,66"
+    },
+    {
+      "id": "lower-cabinets-center-1",
+      "label": "Lower Cabinets Center 1",
+      "points": "31,59 66,59 66,66 31,66"
+    },
+    {
+      "id": "lower-cabinets-right-1",
+      "label": "Lower Cabinets Right 1",
+      "points": "66,59 80,59 80,66 66,66"
+    },
+    {
+      "id": "lower-cabinets-right-2",
+      "label": "Lower Cabinets Right 2",
+      "points": "80,59 96,59 96,66 80,66"
+    },
+    {
+      "id": "lower-cabinets-left-3",
+      "label": "Lower Cabinets Left 3",
+      "points": "2,66 18,66 18,76 2,76"
+    },
+    {
+      "id": "lower-cabinets-left-4",
+      "label": "Lower Cabinets Left 4",
+      "points": "18,66 31,66 31,76 18,76"
+    },
+    {
+      "id": "lower-cabinets-center-2",
+      "label": "Lower Cabinets Center 2",
+      "points": "31,66 65,66 65,76 31,76"
+    },
+    {
+      "id": "lower-cabinets-right-3",
+      "label": "Lower Cabinets Right 3",
+      "points": "65,66 80,66 80,76 65,76"
+    },
+    {
+      "id": "lower-cabinets-right-4",
+      "label": "Lower Cabinets Right 4",
+      "points": "80,66 96,66 96,76 80,76"
+    },
+    {
+      "id": "flooring",
+      "label": "Flooring",
+      "points": "2,76 96,76 96,96 2,96"
+    }
+  ],
+  "kitchen-2": [
+    {
+      "id": "ceiling-soffit-1",
+      "label": "Ceiling Soffit 1",
+      "points": "12,0 84,0 84,16 12,16"
+    },
+    {
+      "id": "ceiling-soffit-2",
+      "label": "Ceiling Soffit 2",
+      "points": "84,0 98,0 98,16 84,16"
+    },
+    {
+      "id": "upper-cabinets-left",
+      "label": "Upper Cabinets Left",
+      "points": "12,16 59,16 59,39 12,39"
+    },
+    {
+      "id": "upper-cabinets-right-1",
+      "label": "Upper Cabinets Right 1",
+      "points": "59,16 73,16 73,39 59,39"
+    },
+    {
+      "id": "upper-cabinets-right-2",
+      "label": "Upper Cabinets Right 2",
+      "points": "73,16 90,16 90,39 73,39"
+    },
+    {
+      "id": "upper-cabinets-right-3",
+      "label": "Upper Cabinets Right 3",
+      "points": "90,16 98,16 98,39 90,39"
+    },
+    {
+      "id": "backsplash-1",
+      "label": "Backsplash 1",
+      "points": "12,39 24,39 24,58 12,58"
+    },
+    {
+      "id": "backsplash-2",
+      "label": "Backsplash 2",
+      "points": "24,39 42,39 42,58 24,58"
+    },
+    {
+      "id": "backsplash-3",
+      "label": "Backsplash 3",
+      "points": "42,39 57,39 57,58 42,58"
+    },
+    {
+      "id": "backsplash-4",
+      "label": "Backsplash 4",
+      "points": "57,39 98,39 98,58 57,58"
+    },
+    {
+      "id": "lower-cabinets-left",
+      "label": "Lower Cabinets Left",
+      "points": "12,58 33,58 33,76 12,76"
+    },
+    {
+      "id": "lower-cabinets-center-1",
+      "label": "Lower Cabinets Center 1",
+      "points": "33,58 40,58 40,76 33,76"
+    },
+    {
+      "id": "lower-cabinets-center-2",
+      "label": "Lower Cabinets Center 2",
+      "points": "40,58 49,58 49,76 40,76"
+    },
+    {
+      "id": "lower-cabinets-center-3",
+      "label": "Lower Cabinets Center 3",
+      "points": "49,58 59,58 59,76 49,76"
+    },
+    {
+      "id": "lower-cabinets-right-1",
+      "label": "Lower Cabinets Right 1",
+      "points": "59,58 76,58 76,76 59,76"
+    },
+    {
+      "id": "lower-cabinets-right-2",
+      "label": "Lower Cabinets Right 2",
+      "points": "76,58 98,58 98,76 76,76"
+    },
+    {
+      "id": "flooring-1",
+      "label": "Flooring 1",
+      "points": "12,76 90,76 90,100 12,100"
+    },
+    {
+      "id": "flooring-2",
+      "label": "Flooring 2",
+      "points": "90,76 98,76 98,100 90,100"
+    }
+  ],
+  "kitchen-3": [
+    {
+      "id": "ceiling-soffit-1",
+      "label": "Ceiling Soffit 1",
+      "points": "12,3 25,3 25,16 12,16"
+    },
+    {
+      "id": "ceiling-soffit-2",
+      "label": "Ceiling Soffit 2",
+      "points": "25,3 35,3 35,16 25,16"
+    },
+    {
+      "id": "ceiling-soffit-3",
+      "label": "Ceiling Soffit 3",
+      "points": "35,3 45,3 45,16 35,16"
+    },
+    {
+      "id": "ceiling-soffit-4",
+      "label": "Ceiling Soffit 4",
+      "points": "45,3 62,3 62,16 45,16"
+    },
+    {
+      "id": "ceiling-soffit-5",
+      "label": "Ceiling Soffit 5",
+      "points": "62,3 72,3 72,16 62,16"
+    },
+    {
+      "id": "ceiling-soffit-6",
+      "label": "Ceiling Soffit 6",
+      "points": "72,3 83,3 83,16 72,16"
+    },
+    {
+      "id": "ceiling-soffit-7",
+      "label": "Ceiling Soffit 7",
+      "points": "83,3 98,3 98,16 83,16"
+    },
+    {
+      "id": "upper-cabinets-left-1",
+      "label": "Upper Cabinets Left 1",
+      "points": "12,16 25,16 25,37 12,37"
+    },
+    {
+      "id": "upper-cabinets-left-2",
+      "label": "Upper Cabinets Left 2",
+      "points": "25,16 35,16 35,37 25,37"
+    },
+    {
+      "id": "upper-cabinets-left-3",
+      "label": "Upper Cabinets Left 3",
+      "points": "35,16 45,16 45,37 35,37"
+    },
+    {
+      "id": "chimney-hood",
+      "label": "Chimney Hood",
+      "points": "45,16 62,16 62,37 45,37"
+    },
+    {
+      "id": "upper-cabinets-right-1",
+      "label": "Upper Cabinets Right 1",
+      "points": "62,16 72,16 72,37 62,37"
+    },
+    {
+      "id": "upper-cabinets-right-2",
+      "label": "Upper Cabinets Right 2",
+      "points": "72,16 91,16 91,37 72,37"
+    },
+    {
+      "id": "upper-cabinets-right-3",
+      "label": "Upper Cabinets Right 3",
+      "points": "91,16 98,16 98,37 91,37"
+    },
+    {
+      "id": "backsplash-1",
+      "label": "Backsplash 1",
+      "points": "12,37 92,37 92,63 12,63"
+    },
+    {
+      "id": "backsplash-2",
+      "label": "Backsplash 2",
+      "points": "92,37 98,37 98,63 92,63"
+    },
+    {
+      "id": "lower-cabinets",
+      "label": "Lower Cabinets",
+      "points": "12,63 84,63 84,83 12,83"
+    },
+    {
+      "id": "lower-cabinets-right",
+      "label": "Lower Cabinets Right",
+      "points": "84,63 98,63 98,83 84,83"
+    },
+    {
+      "id": "flooring-1",
+      "label": "Flooring 1",
+      "points": "12,83 84,83 84,100 12,100"
+    },
+    {
+      "id": "flooring-2",
+      "label": "Flooring 2",
+      "points": "84,83 98,83 98,100 84,100"
+    }
+  ]
+}

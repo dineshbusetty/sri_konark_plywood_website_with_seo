@@ -8,11 +8,11 @@ const navLinks = [
   { label: 'Home', href: '#top' },
   { label: 'About', href: '#about' },
   { label: 'Products', href: '#gallery' },
-  { label: 'Rooms', href: '#gallery' },
+  { label: 'Visualizer', href: '#visualizer' },
   { label: 'Contact', href: '#contact' },
 ]
 
-const sectionIds = ['top', 'about', 'gallery', 'contact']
+const sectionIds = ['top', 'about', 'gallery', 'visualizer', 'contact']
 
 function MagneticLink({ children, href, onClick, className, linkRef }) {
   const x = useMotionValue(0)
